@@ -1,0 +1,50 @@
+# ========================
+# SECRETS (CRITICAL)
+# ========================
+.env
+
+# ========================
+# GO BINARIES & BUILD FILES
+# ========================
+# Ignores the compiled executable files created when you run 'go build'
+chronos
+chronos.exe
+*.exe
+*.exe~
+*.dll`  `
+*.so
+*.dylib
+*.test
+*.out
+
+# ========================
+# DEPENDENCIES
+# ========================
+# Ignores downloaded modules if you ever use 'go mod vendor'
+vendor/
+
+# ========================
+# IDE & EDITOR FILES
+# ========================
+# VS Code
+.vscode/
+*.code-workspace
+# IntelliJ / GoLand
+.idea/
+*.iml
+# Other editors
+*.swp
+*~
+
+# ========================
+# OS GENERATED FILES
+# ========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
